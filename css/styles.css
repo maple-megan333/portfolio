@@ -1,0 +1,42 @@
+/* pallet colors:
+Dark Cyan: #038787
+Prussian Blue: #103245
+Maximum Yellow Red: #F2B531
+Red Munsell: #FA003F
+Mint Cream: #F0F7F4
+*/
+
+/* this is the CSS reset*/
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Here I am establishing the base fonts for my project*/
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif; 
+
+}
