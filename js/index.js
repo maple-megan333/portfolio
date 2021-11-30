@@ -1,6 +1,7 @@
 // lazy line painter code
 
 
+
 (function () {
 
   document.onreadystatechange = () => {
@@ -12,12 +13,16 @@
        * see README file for more settings
        */
 
+      document.getElementById('yellowsvg').style.visibility='visible'
+
       let el = document.querySelector('#yellowsvg');
       let myAnimation = new LazyLinePainter(el, { "ease":"easeLinear",
       "strokeWidth":1,
       "strokeOpacity":1,
       "strokeColor":"#F2B531",
       "reverse":true});
+
+      
       
       myAnimation.paint();
     }
