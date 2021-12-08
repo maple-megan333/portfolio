@@ -30,7 +30,7 @@ body{
   font-family: 'Karla', sans-serif;
   margin: 0;
   padding: 0;
-  
+  color: #F0F7F4;
 
 }
 
@@ -68,7 +68,7 @@ main{
 
 article{
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   max-width: 90%;
   margin: auto;
   justify-content: center;
@@ -231,6 +231,7 @@ header{
 
 .about{
   padding-bottom: 6px;
+  flex-wrap: wrap-reverse;
 }
 
 
@@ -285,7 +286,7 @@ header{
 }
 
 /*svg logo styles*/
-path{
+#intro path{
     stroke: rgb(242, 181, 49);
     stroke-opacity: 1;
     stroke-width: 1;
