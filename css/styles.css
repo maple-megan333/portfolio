@@ -96,7 +96,6 @@ li a:hover {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   font-weight:600;
-  max-width: 25%;
 }
 
 .custom-toggler.navbar-toggler {
@@ -223,6 +222,255 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 74%, 50% 100%, 0 75%, 0 25%);
     }
 
 
+/* resume page style*/
+.resume{
+    background: url(/images/morebgtxt.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resume h1{
+     border-bottom-color: #F2B531;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  width: 180px;
+}
+
+.stickyfeet {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.stickyside{
+  width: 25%;
+  background-color: #038787;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 12px;
+  height: 100vh;
+  padding: 2%;
+  text-align: center;
+  min-width: 215px;
+  position: fixed;
+}
+
+.stickyside section {
+  display: block;
+  justify-self: center;
+  border-top-color: #103245;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+.stickyside section img{
+  margin: auto;
+  width: 50%;
+  height: auto;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 74%, 50% 100%, 0 75%, 0 25%);
+  margin-top: 35px;
+
+}
+
+.topsy{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.times{
+ width: 25%;
+}
+
+.times :first-child{
+  border-bottom-color: #FA003F;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  width: 100px;
+  font-weight:600;
+}
+
+.details{
+  width: 70%;
+  border-left-color: #038787;
+  border-left-style: solid;
+  border-left-width: 1px;
+  padding-left: 4%;
+
+}
+
+.details :first-child{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.infotitle{
+  font-size: 18px;
+  color: #F2B531;
+  font-weight: 700;
+}
+
+.lefty {
+  text-align: left;
+}
+
+.lefty p{
+  padding: 0px;
+  margin: 5px;
+}
+
+.stickyside h4,
+ .stickyside h6 {
+  color: #F2B531;
+}
+
+.strong{
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.resume .container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resume article{
+  width: 70%;
+  position: relative;
+  justify-content: right;
+  margin-left: 27%;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+
+.add{
+  margin: 5% 0;
+}
+
+.certs{
+ display: inline;
+ width: 100%;
+margin: auto;
+justify-content: space-between;
+padding-bottom: 2%;
+}
+
+.topsy svg{
+  width: 10%;
+  height: auto;
+}
+.space{
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.topsy svg :hover{
+  fill: #F0F7F4;
+}
+
+.certs ul{
+  padding-bottom: 0;
+  width: 45%;
+  margin-left: 2%
+}
+
+.center{
+  text-align: center;
+  margin: auto;
+}
+
+/*contact styles*/
+#confirms{
+  display: none;
+}
+
+#form{
+  display: inline;
+}
+input{
+  border: none;
+  margin: 15px;
+  width:80%;
+  background: none;
+  border-bottom:1px solid #F0F7F4;
+  outline:none;
+  transition: border-color border-width .2s;
+  color: #F0F7F4;
+}
+
+
+input:focus {
+  border-bottom-color: #038787;
+  border-bottom-width: 2px;
+}
+
+input::placeholder {
+  color: #F2B531;
+}
+
+.contact{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  margin: auto;
+  padding: 5%;
+  max-width: 1500px;
+  margin-top: 10%;
+
+}
+
+.contact section{
+  width: 45%;
+  min-width: 250px;
+  font-size: 18px;
+}
+
+.reachout{
+  text-align: right;
+  justify-content: right;
+}
+
+.reachout h1{
+  width: 100%;
+  border-bottom-color: #FA003F;
+  text-align: right;
+
+}
+
+.reachout svg :hover{
+  fill: #038787;
+}
+
+.reachout div{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.reachout svg{
+  width: 50%;
+  height: auto;
+}
+
+.forms{
+  text-align: left;
+}
+
+.forms button{
+  width: 20px;
+  padding: 10px;
+  margin: 30px 0 30px 10%;
+}
+
 /*special intro styles*/
 header{
   overflow: hidden;
@@ -233,6 +481,7 @@ header{
   padding-bottom: 6px;
   flex-wrap: wrap-reverse;
 }
+
 
 
 #intro{
@@ -440,5 +689,42 @@ stroke-linejoin:round;
 .third:hover {
   box-shadow: 0 0 10px 0 #103245 inset, 0 0 10px 4px #103245;
 }
+
+.morebt {
+  border-color: #038787;
+  color: #F0F7F4;
+  box-shadow: 0 0 40px 40px #038787 inset, 0 0 0 0 #038787;
+  transition: all 150ms ease-in-out;
+  margin-bottom: 20px;
+  animation: none;
+}
+.morebt:hover {
+  box-shadow: 0 0 10px 0 #038787 inset, 0 0 10px 4px #038787;
+}
     
+@media screen and (max-width: 835px){
+  .stickyside{
+    display: none;
+  }
+  .resume article{
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .contact section{
+    width: 80%;
+    margin: auto;
+    margin-top: 12%;
+  }
+  .forms{
+    text-align: right;
+  }
+
+  .forms button{
+    margin: 30px 10% 30px 0;
+  }
+  
+}
 

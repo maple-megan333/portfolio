@@ -2,6 +2,9 @@
 
 // lazy line painter code
 
+const lazyline = () => {
+
+
 
 (function () {
 
@@ -37,8 +40,10 @@
   }
 
 })();
+}
 
 // simple slider code
+const simpleSlider = () => {
 
 var myIndex = 0;
 carousel();
@@ -54,6 +59,27 @@ function carousel() {
   x[myIndex-1].style.display = "inline";  
   setTimeout(carousel, 9000);    
 }
+}
+
+//contact form code
+const contactMe = () =>{
+const submits = document.getElementById ('submit');
+function confirm(event) {
+  //alert("Thank you for taking the time to reach out to me! I will get back to you shortly!");
+  const form = document.getElementById('form');
+  const confirms   = document.getElementById('confirms');
+  //const submits = document.getElementById ('submit');
+
+  form.style.display = 'none';
+  submits.style.display = 'none';
+
+  confirms.style.display ='block';
+  event.preventDefault();
+
+}
+form.addEventListener('submit', confirm);
+}
+
 
 
 
