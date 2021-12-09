@@ -376,6 +376,8 @@ padding-bottom: 2%;
   fill: #F0F7F4;
 }
 
+
+
 .certs ul{
   padding-bottom: 0;
   width: 45%;
@@ -471,6 +473,147 @@ input::placeholder {
   margin: 30px 0 30px 10%;
 }
 
+/* Portfolio Styles */
+.portfolio{
+  padding-top: 90px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10vh;
+}
+.portfolio h1{
+   border-bottom-color: #FA003F;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+.grid {
+  background: transparent;
+  margin: 0 auto;
+  min-height: 80vh;
+}
+
+.grid:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.grid-item {
+  float: left;
+  float: left;
+  width: 300px;
+  border-color: transparent;
+  border-width: 5px;
+  margin-bottom: 10px;
+}
+
+.grid-item--width2 { 
+  width: 600px;
+   }
+
+
+.grid-item:hover {
+  cursor: pointer;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+.grid-item.grid-item__expanded {
+  width: 66.66%;
+  z-index: 2;
+}
+
+#buttonGroup{
+  display:inline-flex;
+  text-align: left;
+  margin: 10px 0 10px 10px;
+  width: 75%;
+}
+
+#buttonGroup p:hover{
+  cursor: pointer;
+}
+
+.is-active{
+  font-weight: 600;
+  color: #F2B531;
+}
+
+.coming h1{
+  width: 75%;
+  margin: auto;
+}
+
+/*picture overlay*/
+.content {
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(3, 135, 135, 0.8);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 68%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details{
+  top: 68%;
+  left: 50%;
+  opacity: 1;
+}
+
+.content-details h4{
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 10px;
+}
+
+.content-details p{
+  font-size: 0.8em;
+}
+.content-details a{
+  font-weight: 700;
+  color: #F2B531;
+  text-decoration: underline;
+  text-decoration-color: #F2B531;
+
+}
+.fadeIn-bottom{
+  top: 80%;
+}
 /*special intro styles*/
 header{
   overflow: hidden;

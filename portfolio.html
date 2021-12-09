@@ -1,73 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>About Megan Maple</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-            crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/styles.css">
-    </head>
-    <body class="resume">
-        <div class="container">
-            <header>
-                <nav class="navbar fixed-top navbar-expand-lg ">
-                    <a class="navbar-brand" href="#">
-                    <img src="/images/mint.png" width="30" height="30" alt="">
-                    </a>
-                    <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ml-auto ">
-                            <li class="nav-item ">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="resume.html">Resume<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Megan Maple's Portfolio</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+         rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+         crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/styles.css">
+   </head>
+   <body class="resume">
+      <div class="container">
+         <header>
+            <nav class="navbar fixed-top navbar-expand-lg ">
+               <a class="navbar-brand" href="#">
+               <img src="/images/mint.png" width="30" height="30" alt="">
+               </a>
+               <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto ">
+                     <li class="nav-item ">
+                        <a class="nav-link" href="about.html">About</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="resume.html">Resume<span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </header>
+         <div class="portfolio">
+            <h1>Portfolio</h1>
+            <div class="links" id="buttonGroup">
+               <p>
+                  <a id="all">All</a>
+               </p>
+               <p>
+                  <a id="web">
+                     Programming </a>
+               </p>
+              <p>
+                  <a id="design">Design</a>
+               </p>
+               <p>
+               <a id="coms">Data, Communication & More</a>
+               </p>
 
-            <footer class="stickyfeet">
-                <div class="foot">
-                    <img src="/images/mint.png" alt="">
-                    <p>&copy; Megan Maple, 2022
-                    <p>  
-                </div>
-                <div class="links">
-                    <p>
-                        <a href="about.html">About</a>
-                    </p>
-                    <p>
-                        <a href="resume.html">Resume</a>
-                    </p>
-                    <p>
-                        <a href="portfolio.html">Portfolio</a>
-                    </p>
-                    <p>
-                        <a href="contact.html">Contact</a>
-                    </p>
-                </div>
-            </footer>
-        </div>
-        <script src="js/lazy-line-painter-1.9.6.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="js/index.js"></script>
-    </body>
+            </div>
+            <div class="grid" id="container">
+               <div class="grid-sizer"></div>
+               <div class="grid-item web content">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" src="/images/ninblog.jpg"/>
+                  <div class="content-details fadeIn-bottom">
+                     <h4 class="content-title">NinBlog</h4>
+                     <p class="content-text">One hour on the clock to make a responsive website. Go! how did we do? Find out!</p>
+                     <a href="https://make-a-blog-site-team-3.lazaroalsina.repl.co/">
+                        <p>Learn More ></p>
+                     </a>
+                  </div>
+               </div>
+               <div class="grid-item grid-item--width2 web content">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" src="/images/TTM.jpg"/>
+                  <div class="content-details fadeIn-bottom">
+                     <h4 class="content-title">Timely Task Manager</h4>
+                     <p class="content-text">This was a short JS project made for Generation Final.</p>
+                     <a href="https://jwd-final-project.meganmaple.repl.co/">
+                        <p>Learn More ></p>
+                     </a>
+                  </div>
+               </div>
+               <div class="grid-item web content grid-item--width2">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" src="/images/CKS.jpg"/>
+                  <div class="content-details fadeIn-bottom">
+                     <h4 class="content-title">Cheryl King Studios</h4>
+                     <p class="content-text">Helping a local artist build and maintain her brand and website!</p>
+                     <a href="https://cherylkingstudios.com/">
+                        <p>Learn More ></p>
+                     </a>
+                  </div>
+               </div>
+               <div class="grid-item design content ">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" src="/images/catfacts.jpg"/>
+                  <div class="content-details fadeIn-bottom">
+                     <h4 class="content-title">Cat Facts Mock Up</h4>
+                     <p class="content-text">A fun mock up for a preposed group project!</p>
+                     <a href="comingsoon.html">
+                        <p>Learn More ></p>
+                     </a>
+                  </div>          
+               </div>
+
+               <div class="grid-item web design content">
+                  <div class="content-overlay"></div>
+                  <img class="content-image" src="/images/rammp.jpg"/>
+                  <div class="content-details fadeIn-bottom">
+                     <h4 class="content-title">RAMMP Rebrand</h4>
+                     <p class="content-text">A rebranding and website build group project for the Web Design MAMC capstone project</p>
+                     <a href="comingsoon.html">
+                        <p>Learn More ></p>
+                     </a>
+                  </div>
+              
+               </div>
+            </div>
+         </div>
+ 
+         <footer class="stickyfeet">
+            <div class="foot">
+               <img src="/images/mint.png" alt="">
+               <p>&copy; Megan Maple, 2022
+               <p>  
+            </div>
+            <div class="links">
+               <p>
+                  <a href="about.html">About</a>
+               </p>
+               <p>
+                  <a href="resume.html">Resume</a>
+               </p>
+               <p>
+                  <a href="portfolio.html">Portfolio</a>
+               </p>
+               <p>
+                  <a href="contact.html">Contact</a>
+               </p>
+            </div>
+         </footer>
+      </div>
+      <script src="js/lazy-line-painter-1.9.6.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="js/isotope.pkgd.min.js"></script>
+      <script src="js/masonry.pkgd.min.js"></script>
+      <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+      <script src="js/index.js"></script>
+     <script type="text/javascript">
+     portfolio();
+     </script>
+   </body>
 </html>

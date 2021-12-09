@@ -10,7 +10,7 @@ https://www.pexels.com/photo/blue-and-red-galaxy-artwork-1629236/
 
 Icons from : 
 
-https://www.freepik.com/free-vector/data-visualization-dynamic-wave-pattern-vector_3226769.htm#page=1&query=line%20art&position=38&from_view=search
+
 
 
 
@@ -21,6 +21,10 @@ https://animista.net/play/entrances/scale-in
 https://cssgradient.io/
 
 lazylinepainter.info
+
+portfolio modified and inspired by 
+https://codepen.io/dan10gc/pen/GMBxaN
+
 
 
 
