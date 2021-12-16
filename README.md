@@ -25,6 +25,13 @@ lazylinepainter.info
 portfolio modified and inspired by 
 https://codepen.io/dan10gc/pen/GMBxaN
 
-
+list of my changes I would like to make next:
+fix nav bar, 
+fix overlay 
+increase animation speed
+create a project description page. 
+update photos
+upload
+pop-out page on portfolio
 
 
