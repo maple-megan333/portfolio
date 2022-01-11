@@ -765,7 +765,7 @@ stroke-linejoin:round;
   margin: auto;
   color: #F0F7F4;
   clear: both;
-  animation: 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s 1 normal both running slide-in-bottom;
+  animation: 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s 1 normal both running slide-in-bottom;
 }
 
 
@@ -831,7 +831,7 @@ stroke-linejoin:round;
   text-align: center;
   text-transform: uppercase;
   clear: both;
-      animation: 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s 1 normal both running slide-in-bottom;
+      animation: 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s 1 normal both running slide-in-bottom;
 }
 .btn:hover, .btn:focus {
   color: #F0F7F4;
